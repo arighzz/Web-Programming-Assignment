@@ -1,0 +1,20 @@
+#menu-return{
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 95%;
+    vertical-align: middle;
+    color: white;
+    background: rgb(27, 68, 112);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+.image-class{
+    width: 95%;
+    height: auto;
+}

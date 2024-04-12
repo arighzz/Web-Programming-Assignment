@@ -1,0 +1,117 @@
+.whitepage {
+    width: 700px;
+    height: 700px; 
+    background-color: white; 
+    position: relative; /* Establish stacking context */
+    z-index: 1;
+}
+.namecard {
+    position: absolute;
+    top : 25px;
+    left: 335px;
+    transform: scale(1.125);
+    z-index: 3; /* Set a high z-index value */
+}
+.nametext {
+    position:absolute;
+    z-index: 4;
+    top:60px;
+    left: 470px;
+    font-weight: bold;
+    font-size: 34px;
+    color: white;
+    text-shadow: 
+        -1px -1px 6px black,  
+        1px -1px 6px black,
+        -1px 1px 6px black,
+        1px 1px 6px black; /* Black border */
+}
+
+.positiontext {
+    position:absolute;
+    z-index: 4;
+    top:100px;
+    left: 470px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 
+        -1px -1px 4px black,  
+        1px -1px 4px black,
+        -1px 1px 4px black,
+        1px 1px 4px black; /* Black border */
+}
+
+
+.infobox {
+    position: absolute;
+    top: 100px;
+    left: 320px;
+    width: 140px;
+    height: 350px;
+    background-color: #FFFFAD;
+    border-radius: 20px;
+    z-index: 2;
+   box-shadow: 0 0 15px black;
+  }
+
+  .infotext{
+    position: absolute;
+    z-index: 3;
+    top: 180px;
+    left: 335px;
+    font-size: 24px;
+    font-weight:bold;
+  }
+
+
+  .info{
+    position: absolute;
+    z-index: 3;
+    top: 215px;
+    left: 325px;
+  }
+
+
+  .linkbox {
+    position: absolute;
+    top: 230px;
+    right: 320px;
+    width: 140px;
+    height: 110px;
+    background-color: #D1E4FF;
+    border-radius: 20px;
+    z-index: 2;
+   box-shadow: 0 0 8px black;
+  }
+
+  .linktext {
+    position: absolute;
+    z-index: 3;
+    right: 340px;
+    top: 225px;
+    color:darkblue;
+    font-weight: bold;
+    font-size:22px;
+  }
+
+  .titleheader {
+    position: absolute;
+    z-index: 3;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    text-shadow: 
+    -1px -1px 4px black,  
+    1px -1px 4px black,
+    -1px 1px 4px black,
+    1px 1px 4px black;  
+  }
+
+  .descriptor {
+    position: absolute;
+    z-index: 3;
+    font-size: 18px;
+    font-weight: bold;
+    left: 480px;
+  }

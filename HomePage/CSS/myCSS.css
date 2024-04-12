@@ -1,0 +1,212 @@
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+
+
+
+.blackbar{
+    width: 300;
+    height: 100%;
+    background-color: black;
+    border-color: white;
+    border-width: 0 3px 0 0;
+    left:0;
+    top:0;
+    padding: 0;
+    border-style: solid;
+    position:fixed;
+    display: block;
+    z-index: 1;
+}
+
+.introduction {
+    font-family: "Arial", sans-serif;
+    color:aliceblue;
+    margin-bottom: 70px;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-width: 0 0 3px 0;
+    border-style: solid;
+    border-color: white;;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.menu-buttons {
+    font-family: "Arial", sans-serif;
+    color:aliceblue;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 280px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.menu-buttons-container {
+    margin-top: 40px; 
+    margin-left: 10px;
+}
+
+.menu-buttons:hover{
+    background-color: rgb(134, 162, 186);
+    background-position: left center;
+    color: black;
+}
+
+.menu-current-button{
+    background-color: rgb(214, 234, 252);
+    background-position: left center;
+    color: black;
+    font-family: "Arial", sans-serif;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 280px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    
+}
+
+
+.title-text{
+    padding-top: 30px;
+    padding-left: 335px;
+    font-weight: bold;
+    font-size: 55px;
+
+    color: white;
+    
+}
+
+.body-text{
+    padding-left: 335px;
+    font-size: 22px;
+    color: white;
+
+}
+
+.images{
+    width: 15%;
+    height:auto;
+    padding-left: 100px;
+    margin: 10px;
+    border-radius: 16px;
+    border: 1px solid grey;
+    padding: 6px;
+    z-index: 1;
+}
+
+.images:hover {
+    cursor: pointer;
+    border-width: 4px;
+    border-color: gold;
+}
+
+#sleebies{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 20px auto; 
+    border-radius: 16px;
+    border: 1px solid grey;
+    padding: 6px;
+
+}
+
+.contacts{
+    font-size: 18px;
+    font-family: "Arial", sans-serif;
+    color:gray;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.paragraph {
+    font-weight: bold;
+    margin: 5px;
+    font-size: 14px;
+    font-family: arial;
+    color: white;
+    transform: scale(1.75);
+    width: 20%;
+    height: 20%;
+    padding-top: 120px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 18px;
+}
+
+.parasign{
+    font-weight:bold;
+    margin: 5px;
+    font-family: arial;
+    color: white;
+    transform: scale(1.25);
+    width: 20%;
+    height: 20%;
+    padding-top:10px;  
+    text-shadow:  
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+     font-size: 14px;
+}
+
+.form-element {
+    padding-bottom: 8px;
+}
+
+.form-sub-element {
+    padding-bottom: 5px;
+}
+
+.signup{
+    font-size: 16px;
+    color:rgb(142, 142, 243);
+}
+
+.congrats{
+    font-weight:bold;
+    font-family: arial;
+    color: white;
+    width: 50%;
+    padding-right:120px;
+    padding-top:10px;  
+    padding-bottom: 80px;
+    text-shadow:  
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+     font-size: 45px;   
+}
+
+
+.backtomenu{
+    padding: 8px;
+    background-color: rgb(179, 219, 219);
+    border-color: rgb(196, 196, 196);
+    border-width: 4px;
+    border-style:solid;
+    border-radius: 10px;
+    text-shadow:  
+    -1px -1px 2px black,  
+    1px -1px 2px black,
+    -1px 1px 2px black,
+    1px 1px 2px black; /* Black border */
+     font-weight:bold;
+     font-family: arial;
+     font-size: 26px;
+    color:white;
+    width: 30%;
+    
+}
